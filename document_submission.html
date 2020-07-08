@@ -10,11 +10,11 @@
       <script type="text/javascript" src="../mycasa-src-3.0/js/designsystem.min.js"></script>
       <script type="text/javascript" src="../mycasa-src-3.0/js/jquery.min.js"></script>
       <script type="text/javascript" src="../mycasa-src-3.0/js/jquery.js"></script>
-	  <script type="text/javascript" src="va.js"></script> 
+	  <script type="text/javascript" src="va.js"></script>
       <script type="text/javascript">
          /* page specific js */
-         
-         
+
+
       </script>
    </head>
    <body class="live-demo au-body au-grid">
@@ -26,7 +26,7 @@
                      <a href="index.html"><img src="../mycasa-src/img/CASALOGO-white-i.svg"></a>
                   </div>
                   <div class="casa-menu">
-                  
+
                   	<div id="dropdown-menu">
 						<div id="dd-menu"><a class="au-btn au-btn--dark menu" href="#"><img src="../mycasa-src/img/menu.png" height="20" />Menu</a></div>
 						<div id="dd-close"><a class="au-btn au-btn--dark menu" href="#"><img src="../mycasa-src/img/close.png" height="20" />Close</a><br />
@@ -35,8 +35,8 @@
 						<p><a href="#">Switch profile</a></p>
 						<p><a href="mycasa-signed-out.html">Sign out</a></p>
 						</div>
-                  
-                  
+
+
                   </div>
                </div></div>
             </div>
@@ -55,13 +55,12 @@
                <nav class="au-breadcrumbs" aria-label="breadcrumb">
                   <ul class="au-link-list au-link-list--inline">
                      <li><a href="dashboard-org.html">myCASA</a></li>
-                      <li><a href="manage-users.html">Manage users</a></li>
-                    <li>Add user</li>
+                      <li>Document submission</li>
                   </ul>
                </nav>
 			 <div class="casa-section">
                <header class="au-header" role="banner">
-                  <h1 class="break desktop au-header-heading">Document Submission</h1>
+                  <h1 class="break desktop au-header-heading">Document submission</h1>
                   <a class="au-direction-link" href="javascript:history.back()">
 					<span class="au-direction-link__arrow au-direction-link__arrow--left" aria-hidden="true"></span>Back
 					</a>
@@ -69,13 +68,11 @@
 			 </div>
 <div class="row">
                	<div class="col-xs-12 col-md-12 col-lg-6">
-					<section class="au-callout">					
-<p>You can upload and submit a varietyof documents through to CASA. Please<strong> </strong>choose the document type you are submitting below</p>
-					</section>
 
-					
-					
-					<div class="au-form-group">     
+
+<!--
+
+					<div class="au-form-group">
                     <fieldset class="au-fieldset">
                         <legend class="au-fieldset__legend">
                         </legend>
@@ -85,19 +82,19 @@
                                        id="authorised-rep" value="application-summary">
                                 <label class="au-control-input__text" for="authorised-rep">Manual of operations update</label>
                         </div>
-                        
+
                         <div class="au-control-input au-control-input--block">
                             <input class="au-control-input__input" type="radio" name="role-choice"
                                        id="ceo" value="ceo-owner-information">
                                 <label class="au-control-input__text" for="ceo">Safety risk mitigation plan</label>
                         </div>
-                        
+
                         <div class="au-control-input au-control-input--block">
                             <input class="au-control-input__input" type="radio" name="role-choice"
                                        id="owner" value="ceo-owner-information">
                                 <label class="au-control-input__text" for="owner">CASA form</label>
                         </div>
-                        
+
                         <div class="au-control-input au-control-input--block">
                             <input class="au-control-input__input" type="radio" name="role-choice"
                                        id="role-a" value="application-summary">
@@ -105,23 +102,33 @@
                         </div>
 
 
-                        
+
                     </fieldset>
-                    </div>  
-					
-					
+                    </div>
 
-				
+-->
 
 
-				   
+
+
+
  <div class="au-form-group">
-			<h4>Upload supporting documentation</h4>
+			<h2>Upload documents</h2>
 			<br>
 			<button class="au-btn au-btn--secondary" type="button">Choose file</button><br>
-			<span class="form-text">Accepted file types are PDF documents (.pdf) and the following image formats: .jpg, .bmp and .png</span>
+			<span class="form-text">You can upoad up to five files per submission. Accepted file types are PDF documents (.pdf), DOC documents (.doc, .docx) and Excel spreadsheets (.xls, .xslx)</span>
 		 </div>
 
+
+	<div class="au-form-group">
+    <h2>Submission description</h2>
+    <label class="au-label" for="textarea" style="font-weight:normal;">Please describe the documents you are submitting and any additional information relevant to your submission.</label>
+					<textarea class="au-text-input au-text-input--block" name="textarea" id="textarea">
+
+					</textarea>
+          <em>Maximum 4000 characters and minimum 50 characters</em>
+
+  </div>
 
 <div class="au-form-group">
 	<div class="au-callout casa-declaration">
@@ -134,10 +141,10 @@ All statements in this Declaration must be correct. Making a false or misleading
 			<input class="au-control-input__input" type="checkbox" name="checkbox-ex" id="declaration">
 			    <span class="au-control-input__text form-text p-t-0">
 			    I agree and understand the above conditions. </span>
-			</label> 
+			</label>
         </p>
 	</div>
-					</div>    
+					</div>
 
                 <!-- standard next button -->
 
